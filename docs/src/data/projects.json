@@ -1,0 +1,129 @@
+[
+  {
+    "title": "UI - Lib",
+    "description": "Tiny library to create user interfaces, used to build this website",
+    "short": "Declarative UI",
+    "github": "https://github.com/hydrophobefireman/ui-lib",
+    "app": "https://ui.pycode.tk/"
+  },
+  {
+    "title": "DOMShot",
+    "description": "Render your DOM to a <canvas> or an <img> using SVGs and <foreignObject>",
+    "short": "Screenshots with JS",
+    "github": "https://github.com/Hydrophobefireman/DomShot",
+    "app": "/DomShot"
+  },
+  {
+    "title": "Cryptex",
+    "description": "Client side file encryption using web crypto APIs",
+    "short": "File encryption",
+    "github": "https://github.com/Hydrophobefireman/cryptex",
+    "app": "https://crypt.pycode.tk"
+  },
+
+  {
+    "title": "CORS Proxy",
+    "description": "Simple proxy service that gives CORS safe responses by adding the required headers",
+    "short": "Proxy service",
+    "github": "https://github.com/Hydrophobefireman/cors-proxy",
+    "app": "https://cors-proxypy.now.sh"
+  },
+  {
+    "title": "Quic",
+    "description": "Simple URL shortener, works client side using firebase",
+    "short": "URL shortener",
+    "github": "https://github.com/Hydrophobefireman/shortlinks",
+    "app": "https://quic.ml/"
+  },
+  {
+    "title": "QWC",
+    "description": "Create WebComponents without having to write classes, just write the <template>",
+    "short": "Quic Web Components",
+    "github": "https://github.com/Hydrophobefireman/qwc",
+    "app": "/qwc"
+  },
+  {
+    "title": "Downloader-py",
+    "description": "Download manager, supports resumptions",
+    "short": "Download manager",
+    "github": "https://github.com/Hydrophobefireman/downloader-py",
+    "app": ""
+  },
+  {
+    "title": "Composer",
+    "description": "Bringing some FP to python for no reason",
+    "short": "Pipe for Python",
+    "github": "https://github.com/Hydrophobefireman/composer",
+    "app": ""
+  },
+  {
+    "title": "Weblight",
+    "description": "Attempt to convert heavy dynamic pages into static sites",
+    "short": "Naive Google Weblight",
+    "github": "https://github.com/Hydrophobefireman/weblight",
+    "app": "http://weblight.herokuapp.com/"
+  },
+  {
+    "title": "Tempfiles",
+    "description": "Share files for a while, files are deleted automatically",
+    "short": "Ephemeral file sharing",
+    "github": "https://github.com/Hydrophobefireman/tempfiles",
+    "app": "https://tempfiles.herokuapp.com"
+  },
+  {
+    "title": "J-utils",
+    "description": "Spec compliant polyfills and helper functions",
+    "short": "Small utility lib",
+    "github": "https://github.com/Hydrophobefireman/js-code",
+    "app": ""
+  },
+  {
+    "title": "APKMirror Extractor",
+    "description": "Fetch apk files from apk mirror",
+    "short": "App downloads",
+    "github": "https://github.com/Hydrophobefireman/apkmirror_extractor",
+    "app": ""
+  },
+  {
+    "title": "ADBlock Check",
+    "description": "Run thousands of requests to check if your DNS based ad block works",
+    "short": "..",
+    "github": "https://github.com/Hydrophobefireman/adblockcheck",
+    "app": ""
+  },
+  {
+    "title": "NewsPy",
+    "description": "Get news from different sources (dead for now)",
+    "short": "News App",
+    "github": "",
+    "app": ""
+  },
+  {
+    "title": "Image Scraper",
+    "description": "Python script to get images from google and bing",
+    "short": "Simple python scripts",
+    "github": "https://github.com/Hydrophobefireman/image-scrape",
+    "app": ""
+  },
+  {
+    "title": "DSS-JS",
+    "description": "Simple bundler agnostic CSS library, compiles classnames using hashes",
+    "short": "CSS Lib",
+    "github": "https://github.com/hydrophobefireman/dss-js",
+    "app": ""
+  },
+  {
+    "title": "P2P File Share",
+    "description": "File sharing through webRTC. Even works if devices are connected through different networks",
+    "short": "Secure file sharing",
+    "github": "https://github.com/Hydrophobefireman/file-share",
+    "app": "https://files.pycode.tk"
+  },
+  {
+    "title": "P2P Chat App",
+    "description": "Chat App using websockets and webRTC. Supports native Notifications",
+    "short": "Lightweight chat app",
+    "github": "https://github.com/Hydrophobefireman/webmsg-frontend",
+    "app": "https://chat.pycode.tk"
+  }
+]
