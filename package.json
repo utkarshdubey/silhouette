@@ -1,0 +1,17 @@
+{
+  "name": "silhouettejs",
+  "version": "1.0.0",
+  "description": "A small JS module for generating text based avatars in SVGs.",
+  "main": "dist/silhouette.modern.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/utkarshdubey/silhouette.git",
+  "author": "Utkarsh Dubey <utkarsh.dubey3jan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.2"
+  },
+  "scripts": {
+    "build": "microbundle src/index.ts -o ./dist -f modern,umd --target web --raw true  --tsconfig tsconfig.json",
+    "dev": "microbundle watch src/index.ts -o ./dist -f modern,umd --target web --raw true  --tsconfig tsconfig.json"
+  }
+}

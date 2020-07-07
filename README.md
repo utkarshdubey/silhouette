@@ -1,1 +1,66 @@
-"# silhouette" 
+# 🧑 silhouette
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9242979a-2756-4244-b7f3-97848697f5b7/deploy-status)](https://app.netlify.com/sites/searchzilla/deploys)
+[![NPM Version](https://img.shields.io/npm/v/searchzilla)](https://img.shields.io/npm/v/silhouettejs)
+![Awesomeness Level](https://img.shields.io/badge/awesomeness-extreme-blue.svg)
+
+<p align="center">
+  <img src="./assets/Banner.jpg" alt="AlertsJS Logo">
+</p>
+
+Silhouette is a **small, dead-simple** JS library built to help you text-based avatars without loading other heavy libraries like gravatar..
+
+## 🍭 Installation
+Simply download the files from the ``dist`` folder or install the npm version by doing ``npm install silhouettejs`` or ``yarn add silhouette``.
+
+### Usage
+It's really "dead-simple", just call a function and that's it.
+
+- To call the function:
+ ```js
+// Load the module
+import { generateAvatar } from 'silhouettejs';
+
+// You can pass your own data from fetch() requests as well.
+const names = ["Tom Clancy", "Robin Hood", "William Henry"];
+
+// Store avatars in an array since they are base64
+const avatars = []
+
+// Loop through the names and call generateAvatar() to generate the avatar. 
+names.forEach(name => {
+    // Push the newly generate avatar to the avatars array.
+    avatars.push(generateAvatar(name));
+})
+```
+***Note that this generates avatars with random colors, to specify your own background color, you can override the default options by passing an optional object.***
+
+```js
+...
+generateAvatar(someName, {backgroundColor: '#customHexColor'})
+```
+
+You can then directly use the returned *base64* url in an ``<img>`` tag like:
+
+```html
+<img id="avatar">
+
+<script>
+    import { generateAvatar } from 'silhouettejs';
+    const avatarElement = document.getElementById('avatar');
+    avatarElement.src = generateAvatar("Some Name");
+</script>
+
+```
+A more ideal application would be to use this in existing frameworks that support literals. A similar example for React would look something like:
+
+```jsx
+<User name={user.name} picture={generateAvatar(user.name)}>
+```
+
+### Extending on the CSS
+You can resize the avatar flexibly with CSS since this is an SVG image.
+
+## Todo
+- [ ] Add multiple fonts support.
+- [ ] Add a background color range for selected randomized colors.

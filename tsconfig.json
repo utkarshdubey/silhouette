@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "alwaysStrict": true,
+      "declaration": true,
+      "incremental": true,
+      "target": "ESNext",
+      "rootDir": "./src"
+    },
+    "skipLibCheck": true,
+    "exclude": ["node_modules"]
+  }
