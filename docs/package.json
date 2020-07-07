@@ -8,8 +8,7 @@
     "start": "webpack-dev-server",
     "build": "npm run prebuild && webpack --config webpack.config.prod.js && npm run clean-output",
     "prebuild": "cp webpack.config.js webpack.config.prod.js && rm -rf ./docs/",
-    "clean-output": "rm webpack.config.prod.js && npm run copy-static",
-    "copy-static": "for i in ./build_static/*;do echo \"$i\" && cp -r \"$i\" ./docs/; done"
+    "clean-output": "rm webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
