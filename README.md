@@ -64,3 +64,7 @@ You can resize the avatar flexibly with CSS since this is an SVG image.
 ## Todo
 - [ ] Add multiple fonts support.
 - [ ] Add a background color range for selected randomized colors.
+
+## Credits
+- Thanks to @Hydrophobefireman for his weirdass but epic [framework](https://github.com/hydrophobefireman/ui-lib).
+- Thanks to @Protart for his epic SVG.
