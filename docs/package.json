@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "npm run prebuild && webpack --config webpack.config.prod.js && npm run clean-output",
+    "build": "webpack --config webpack.config.prod.js && npm run clean-output",
     "prebuild": "cp webpack.config.js webpack.config.prod.js && rm -rf ./docs/",
     "clean-output": "rm webpack.config.prod.js"
   },
