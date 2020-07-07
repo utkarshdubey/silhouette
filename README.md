@@ -1,6 +1,6 @@
 # 🧑 silhouette
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9242979a-2756-4244-b7f3-97848697f5b7/deploy-status)](https://app.netlify.com/sites/searchzilla/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08ce58d6-78dd-4c3e-aa50-97b1316b59b7/deploy-status)](https://app.netlify.com/sites/silhouette-example/deploys)
 [![NPM Version](https://img.shields.io/npm/v/searchzilla)](https://img.shields.io/npm/v/silhouettejs)
 ![Awesomeness Level](https://img.shields.io/badge/awesomeness-extreme-blue.svg)
 
@@ -8,7 +8,7 @@
   <img src="./assets/Banner.jpg" alt="AlertsJS Logo">
 </p>
 
-Silhouette is a **small, dead-simple** JS library built to help you text-based avatars without loading other heavy libraries like gravatar..
+Silhouette is a **small, dead-simple** JS library built to help you text-based avatars without loading other heavy libraries like gravatar. Here's an example of how your avatars might look: https://silhouette-example.netlify.app/.
 
 ## 🍭 Installation
 Simply download the files from the ``dist`` folder or install the npm version by doing ``npm install silhouettejs`` or ``yarn add silhouette``.
