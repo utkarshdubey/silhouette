@@ -4,7 +4,7 @@ import {
   render
 } from "@hydrophobefireman/ui-lib";
 import { User } from './User';
-import { generateAvatar } from 'silhouettejs';
+import { generateAvatar } from '../../dist/silhouettejs.modern.js';
 import "./App.css";
 
 class App extends Component {

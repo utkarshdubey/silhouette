@@ -24,7 +24,7 @@ import { generateAvatar } from 'silhouettejs';
 // You can pass your own data from fetch() requests as well.
 const names = ["Tom Clancy", "Robin Hood", "William Henry"];
 
-// Store avatars in an array since they are base64
+// Store avatar urls in array
 const avatars = []
 
 // Loop through the names and call generateAvatar() to generate the avatar. 
@@ -40,7 +40,7 @@ names.forEach(name => {
 generateAvatar(someName, {backgroundColor: '#customHexColor'})
 ```
 
-You can then directly use the returned *base64* url in an ``<img>`` tag like:
+You can then directly use the returned *svg* url in an ``<img>`` tag like:
 
 ```html
 <img id="avatar">
