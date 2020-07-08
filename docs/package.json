@@ -2,7 +2,6 @@
   "name": "silhouette-example",
   "version": "1.0.0",
   "description": "An example usage of silhouette.",
-  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
