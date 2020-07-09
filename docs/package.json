@@ -21,7 +21,7 @@
   "dependencies": {
     "@hydrophobefireman/j-utils": "^2.1.1",
     "@hydrophobefireman/ui-lib": "^1.4.1",
-    "silhouettejs": "^1.0.2"
+    "silhouettejs": "^1.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
