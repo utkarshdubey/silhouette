@@ -1,5 +1,26 @@
+<script>
+    export let data;
+    import { generateAvatar } from 'silhouettejs'
+    let bgImage = generateAvatar(data.name);
+</script>
 
+<div style="padding: 10px;">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header__avatar" style="background-image: url('{bgImage}')"></div><a href="mailto:"
+                class="card-header__follow">{data.email}</a>
+        </div>
+        <div class="card-content">
+            <div class="card-content__username">{data.name}</div>
+            <div class="card-content__bio">{data.username}</div>
+        </div>
+        <div class="card-footer">
+            {data.company.catchPhrase}
+        </div>
+    </div>
+</div>
 
+<style>
 .card {
   background: #FFFFFF;
   width: 300px;
@@ -47,17 +68,6 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.card-content__username .badge {
-  display: inline-block;
-  background: #FCD000;
-  border-radius: 2px;
-  margin: 0 10px 0;
-  padding: 4px;
-  color: #333333;
-  font-size: 10px;
-  font-weight: 600;
-  vertical-align: middle;
-}
 .card-content__bio {
   color: #666666;
   font-size: 12px;
@@ -86,27 +96,5 @@
   font-weight: 600;
   text-align: center;
 }
-.card-footer .label {
-  display: block;
-  margin: 4px 0 0;
-  color: #666666;
-  font-size: 10px;
-  font-weight: 400;
-}
 
-.code {
-  background: rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  border-radius: 2px;
-  margin: 40px auto 100px;
-  font-family: monospace;
-  overflow: hidden;
-  overflow-x: auto;
-}
-.code:before {
-  content: 'HTML Code';
-  display: block;
-  padding: 20px 20px 0;
-  color: #333333;
-  font-weight: 600;
-}
+</style>
