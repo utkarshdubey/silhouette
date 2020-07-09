@@ -5294,10 +5294,10 @@ signal-exit@^3.0.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-silhouettejs@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/silhouettejs/-/silhouettejs-1.0.4.tgz#376f6eb49aa97305d4a51ae78b45de95e79b7e24"
-  integrity sha512-/Kdjytmfblv3Yq6P+fnF6bHj/lYNByaT/Dc63LILThGh+eJ326uDlqNON0dAG39qt8E9RHl+VV+M8xvfD4xIBQ==
+silhouettejs@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/silhouettejs/-/silhouettejs-1.0.5.tgz#27d9dc177ee3d19431fa05abf5b2da7cac09f778"
+  integrity sha512-N+zrDuH/ap5PyjjzgLd7J1yMYOUP3ZDJg1nHIQg2SiEUUl6n/UlVz4xmbuUl4M6AtNR5iSUyuHRXGtyAsXga1w==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
