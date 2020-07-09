@@ -1,6 +1,6 @@
 {
   "name": "silhouettejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small JS module for generating text based avatars in SVGs.",
   "module": "dist/silhouette.modern.js",
   "main": "dist/silhouettejs.modern.js",
