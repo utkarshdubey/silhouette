@@ -13,8 +13,16 @@ Silhouette is a **small, dead-simple** JS library built to help you text-based a
 ## 🍭 Installation
 Simply download the files from the ``dist`` folder or install the npm version by doing ``npm install silhouettejs`` or ``yarn add silhouette``.
 
-You can now use it by ``require()`` or ``import()`` either ways.
+You can now use it by ``require()`` or ``import`` either ways.
 
+- ``require()`` syntax goes on like this:
+  ```js
+  const generateAvatar = require('silhouettejs').generateAvatar
+  ```
+ - ``import`` goes like this:
+    ```js
+    import { generateAvatar } from 'silhouettejs'
+    ```
 ### Usage
 It's really "dead-simple", just call a function and that's it.
 
