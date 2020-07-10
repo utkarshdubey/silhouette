@@ -57,6 +57,16 @@ A more ideal application would be to use this in existing frameworks that suppor
 ```jsx
 <User name={user.name} picture={generateAvatar(user.name)}>
 ```
+### Rounded Avatar
+By default silhouette returns a square shaped avatar however you can change it to a rounded avatar as well by explicitly passing ``rounded: true`` in the options object like below.
+
+```js
+import { generateAvatar } from 'silhouettejs';
+
+// Run the function to generate the avatar.
+generateAvatar('Some name', {rounded: true})
+```
+This would return a rounded avatar instead.
 
 ### Extending on the CSS
 You can resize the avatar flexibly with CSS since this is an SVG image.
