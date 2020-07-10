@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <img id="avatar" alt="" style="height: 100px; width: 100px;">
+    
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><circle cx="500" cy="500" r="500" fill="#000000"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-size="428.57">UD</text></svg> -->
+
+    <script type="module">
+        import { generateAvatar } from '/dist/silhouettejs.modern.js';
+        const avatar = document.getElementById('avatar');
+        avatar.src = generateAvatar('Utkarsh Dubey', {rounded: true})
+        console.log(avatar)
+    </script>
+</body>
+</html>
