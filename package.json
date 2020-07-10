@@ -1,9 +1,9 @@
 {
   "name": "silhouettejs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A small JS module for generating text based avatars in SVGs.",
   "module": "dist/silhouettejs.modern.js",
-  "main": "dist/silhouettejs.modern.js",
+  "main": "dist/silhouettejs.umd.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/utkarshdubey/silhouette.git",
   "author": "Utkarsh Dubey <utkarsh.dubey3jan@gmail.com>",
