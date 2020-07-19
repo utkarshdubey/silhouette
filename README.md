@@ -4,10 +4,6 @@
 [![NPM Version](https://img.shields.io/npm/v/searchzilla)](https://img.shields.io/npm/v/silhouettejs)
 ![Awesomeness Level](https://img.shields.io/badge/awesomeness-extreme-blue.svg)
 
-<p align="center">
-  <img src="./assets/Banner.jpg" alt="AlertsJS Logo">
-</p>
-
 Silhouette is a **small, dead-simple** JS library built to help you text-based avatars without loading other heavy libraries like gravatar. Here's an example of how your avatars might look: https://silhouette-example.netlify.app/.
 
 ## 🍭 Installation
