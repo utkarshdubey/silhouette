@@ -4,17 +4,21 @@
 [![NPM Version](https://img.shields.io/npm/v/searchzilla)](https://img.shields.io/npm/v/silhouettejs)
 ![Awesomeness Level](https://img.shields.io/badge/awesomeness-extreme-blue.svg)
 
-<p align="center">
-  <img src="./assets/Banner.jpg" alt="AlertsJS Logo">
-</p>
-
 Silhouette is a **small, dead-simple** JS library built to help you text-based avatars without loading other heavy libraries like gravatar. Here's an example of how your avatars might look: https://silhouette-example.netlify.app/.
 
 ## 🍭 Installation
 Simply download the files from the ``dist`` folder or install the npm version by doing ``npm install silhouettejs`` or ``yarn add silhouette``.
 
-You can now use it by ``require()`` or ``import()`` either ways.
+You can now use it by ``require()`` or ``import`` either ways.
 
+- ``require()`` syntax goes on like this:
+  ```js
+  const generateAvatar = require('silhouettejs').generateAvatar
+  ```
+ - ``import`` goes like this:
+    ```js
+    import { generateAvatar } from 'silhouettejs'
+    ```
 ### Usage
 It's really "dead-simple", just call a function and that's it.
 
